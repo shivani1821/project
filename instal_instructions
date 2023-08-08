@@ -1,0 +1,12 @@
+## Requirements
+1. CMake (version 3.12 or higher)
+2. A C++ compiler with C++17 support
+
+## Instructions
+1. Navigate to the desired GitHub repository, click the green "Code" button, and select "Download ZIP."
+2. Extract the Zip File
+3. Open CMake GUI and set the "Where is the source code" field to the directory where you extracted the downloaded GitHub repository and
+  set the "Where to build the binaries" field by creating a folder named build in exctracted file directory.
+4. Click the "Configure" button. CMake will ask you to specify a generator i.e Visual studio.
+5.After configuration is complete, click the "Generate" button. This will generate the build files in the directory you specified.
+6.Once the generation process is complete, click on open project.
